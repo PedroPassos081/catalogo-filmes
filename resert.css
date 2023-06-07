@@ -1,0 +1,56 @@
+.body-main{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(206, 63, 63) 0%, rgb(128, 128, 209) 35%, rgba(0,212,255,1) 100%);
+}
+
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 700px;
+    background-color: rgb(18, 54, 95);
+    border-radius: 15px;
+}
+
+.box-input{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-all-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;     
+    margin-top: 50px;   
+}
+
+.box-poster{
+
+}
+
+.box-info{
+    width: 300px;
+    color: #fff;
+    font-family: "roboto";
+    font-weight: 400;
+}
+
+.error-hidden{
+    display: none !important;
+}
+
+.error-style{
+    font-family: "roboto";
+    color: red;
+    display: inline-flex;
+    justify-content: center;
+}

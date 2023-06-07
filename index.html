@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Alpha Films</title>
+
+    <link rel="stylesheet" href="./index.css/resert.css">
+    <link rel="stylesheet" href="./index.css/assets.css">
+</head>
+<body class="body-main">
+            <h1>Procure o seu filme aqui!</h1>
+        <div class="box">
+            <div class="box-input">
+                <input id="input-movie"type="text" autocomplete="on">
+                <button id="button" onclick=pesquisar()>Pesquisar</button>
+            </div>
+
+            <div id="msg-error" class="error-hidden error-style">O último filme pesquisado não se encontra em nossa biblíoteca!</div>
+            
+            <div class="box-all-info">
+                <div class="box-poster">
+                    <img id="poster" >
+                </div>
+                <div class="box-info">
+                    <h3 id="title"></h3>
+                    <h3 id="year"></h3>
+                    <h3 id="runtime"></h3>
+                    <h3 id="genre"></h3>
+                    <h3 id="director"></h3>
+                    <h3 id="awards"></h3>
+                    <h3 id="plot"></h3>
+                </div>
+            </div>
+            <script src="./script.js"></script>
+        </div>
+    
+</body>
+</html>
